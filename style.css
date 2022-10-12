@@ -349,4 +349,16 @@ footer a:hover {
   input {
     max-width: 80vw;
   }
+
+  .desc {
+    text-align: center;
+  }
+  footer {
+    font-size: 10px;
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+  }
 }
