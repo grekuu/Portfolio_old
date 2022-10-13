@@ -240,6 +240,10 @@ header {
   color: white;
 }
 
+.project-info p {
+  max-width: 300px;
+}
+
 .contact button {
   padding: 1rem 6rem;
   margin-top: 30px;
