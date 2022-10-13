@@ -215,10 +215,6 @@ header {
   transition: 0.5s;
 }
 
-.margin-fix {
-  margin-left: -70px !important;
-}
-
 .contact {
   background-color: #090909;
   color: #4a4c4d;
