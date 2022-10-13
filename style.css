@@ -299,7 +299,9 @@ footer a:hover {
     display: flex;
     justify-content: center;
     width: 100vw;
-    padding: 20px 0px 20px 10px;
+    padding: 10px 0px 10px 10px;
+    text-transform: none;
+    margin-bottom: 50px;
   }
 
   .title {
@@ -324,10 +326,14 @@ footer a:hover {
     margin: 0;
   }
 
+  .projects {
+    background: white;
+  }
+
   .project {
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
+    margin-top: 50px;
   }
 
   .margin-fix {
@@ -360,5 +366,13 @@ footer a:hover {
     align-items: center;
 
     justify-content: space-between;
+  }
+
+  .project-info a {
+    margin: 0;
+  }
+
+  .project img {
+    margin-top: 0;
   }
 }
