@@ -38,6 +38,10 @@ header {
   align-items: center;
   padding: 20px 50px 20px 50px;
   text-transform: uppercase;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #090909;
 }
 
 .main-header a:visited {
