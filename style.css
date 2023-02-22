@@ -54,23 +54,23 @@ header {
   letter-spacing: 2px;
   margin-right: 25px;
   color: white;
+  transition: all 0.3s, margin-top 1ms, width 1ms, max-width 1ms,
+    margin-left 1ms;
 }
 
 .main-header a:hover {
   color: #883484;
-  transition: all 0.3s, margin-top 1ms, width 1ms, max-width 1ms,
-    margin-left 1ms;
 }
 
 .header-left {
   font-size: 1.8rem;
   font-weight: 800;
+  transition: all 0.3s, margin-top 1ms, width 1ms, max-width 1ms,
+    margin-left 1ms;
 }
 
 .header-left:hover {
   color: #883484;
-  transition: all 0.3s, margin-top 1ms, width 1ms, max-width 1ms,
-    margin-left 1ms;
   cursor: default;
 }
 
@@ -93,12 +93,12 @@ header {
   border-radius: 10px;
   letter-spacing: 1px;
   cursor: pointer;
+  transition: all 0.3s, margin-top 1ms, width 1ms, max-width 1ms,
+    margin-left 1ms;
 }
 
 .header-btn:hover {
   background-color: #883484;
-  transition: all 0.3s, margin-top 1ms, width 1ms, max-width 1ms,
-    margin-left 1ms;
 }
 
 .section {
@@ -199,12 +199,12 @@ header {
   border-radius: 10px;
   letter-spacing: 1px;
   cursor: pointer;
+  transition: all 0.3s, margin-top 1ms, width 1ms, max-width 1ms,
+    margin-left 1ms;
 }
 
 .project button:hover {
   background-color: #883484;
-  transition: all 0.3s, margin-top 1ms, width 1ms, max-width 1ms,
-    margin-left 1ms;
 }
 
 .project a:visited {
@@ -217,12 +217,12 @@ header {
   letter-spacing: 2px;
   margin-right: 25px;
   color: white;
+  transition: all 0.3s, margin-top 1ms, width 1ms, max-width 1ms,
+    margin-left 1ms;
 }
 
 .project a:hover {
   color: #883484;
-  transition: all 0.3s, margin-top 1ms, width 1ms, max-width 1ms,
-    margin-left 1ms;
 }
 
 .contact {
@@ -262,12 +262,12 @@ header {
   letter-spacing: 1px;
   cursor: pointer;
   margin-bottom: 50px;
+  transition: all 0.3s, margin-top 1ms, width 1ms, max-width 1ms,
+    margin-left 1ms;
 }
 
 .contact button:hover {
   background-color: #883484;
-  transition: all 0.3s, margin-top 1ms, width 1ms, max-width 1ms,
-    margin-left 1ms;
 }
 
 .message-input {
@@ -294,12 +294,12 @@ footer a {
   color: white;
   text-decoration: none;
   margin-right: 30px;
+  transition: all 0.3s, margin-top 1ms, width 1ms, max-width 1ms,
+    margin-left 1ms;
 }
 
 footer a:hover {
   color: #883484;
-  transition: all 0.3s, margin-top 1ms, width 1ms, max-width 1ms,
-    margin-left 1ms;
 }
 
 @media only screen and (max-width: 1024px) {
