@@ -58,7 +58,8 @@ header {
 
 .main-header a:hover {
   color: #883484;
-  transition: 0.5s;
+  transition: all 0.3s, margin-top 1ms, width 1ms, max-width 1ms,
+    margin-left 1ms;
 }
 
 .header-left {
@@ -68,7 +69,8 @@ header {
 
 .header-left:hover {
   color: #883484;
-  transition: 0.5s;
+  transition: all 0.3s, margin-top 1ms, width 1ms, max-width 1ms,
+    margin-left 1ms;
   cursor: default;
 }
 
@@ -95,7 +97,8 @@ header {
 
 .header-btn:hover {
   background-color: #883484;
-  transition: 0.5s;
+  transition: all 0.3s, margin-top 1ms, width 1ms, max-width 1ms,
+    margin-left 1ms;
 }
 
 .section {
@@ -200,7 +203,8 @@ header {
 
 .project button:hover {
   background-color: #883484;
-  transition: 0.5s;
+  transition: all 0.3s, margin-top 1ms, width 1ms, max-width 1ms,
+    margin-left 1ms;
 }
 
 .project a:visited {
@@ -217,7 +221,8 @@ header {
 
 .project a:hover {
   color: #883484;
-  transition: 0.5s;
+  transition: all 0.3s, margin-top 1ms, width 1ms, max-width 1ms,
+    margin-left 1ms;
 }
 
 .contact {
@@ -261,7 +266,8 @@ header {
 
 .contact button:hover {
   background-color: #883484;
-  transition: 0.5s;
+  transition: all 0.3s, margin-top 1ms, width 1ms, max-width 1ms,
+    margin-left 1ms;
 }
 
 .message-input {
@@ -292,7 +298,8 @@ footer a {
 
 footer a:hover {
   color: #883484;
-  transition: 0.5s;
+  transition: all 0.3s, margin-top 1ms, width 1ms, max-width 1ms,
+    margin-left 1ms;
 }
 
 @media only screen and (max-width: 1024px) {
