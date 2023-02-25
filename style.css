@@ -157,6 +157,12 @@ header {
 
 .desc {
   color: black !important;
+  text-align: center;
+}
+
+.desc > b {
+  color: rgb(163, 0, 0);
+  font-size: 20px;
 }
 
 .project {
