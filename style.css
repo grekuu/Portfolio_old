@@ -248,8 +248,11 @@ header {
   background-color: rgb(12, 12, 12);
   border: none;
   width: 400px;
-  height: 25px;
+  padding: 10px 5px;
   color: white;
+  outline: none;
+  height: 25px;
+  word-wrap: break-word;
 }
 
 .project-info p {
@@ -277,7 +280,7 @@ header {
 }
 
 .message-input {
-  height: 50px !important;
+  padding: 20px 5px !important;
 }
 
 form {
