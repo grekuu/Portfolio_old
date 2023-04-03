@@ -178,7 +178,6 @@ header {
 }
 
 .project img {
-  margin-right: 50px;
   border-radius: 10px;
   margin-top: 100px;
 }
@@ -390,9 +389,7 @@ footer a:hover {
   footer {
     font-size: 10px;
     display: flex;
-
     align-items: center;
-
     justify-content: space-between;
   }
 
@@ -402,6 +399,17 @@ footer a:hover {
 
   .project img {
     margin-top: 0;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .circle {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .about-left {
+    margin-left: 20px;
   }
 }
 
