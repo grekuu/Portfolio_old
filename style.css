@@ -282,7 +282,16 @@ header {
 }
 
 .message-input {
-  padding: 20px 5px !important;
+  padding: 5px;
+  height: 100px;
+  background-color: rgb(12, 12, 12);
+  color: white;
+  border: none;
+  resize: none;
+}
+
+.message-input:focus {
+  outline: none;
 }
 
 form {
@@ -313,7 +322,7 @@ footer a:hover {
   color: #883484;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1296px) {
   .header-left {
     display: none;
   }
@@ -357,13 +366,14 @@ footer a:hover {
   .project {
     display: flex;
     flex-direction: column;
-
+    align-items: center;
     margin-top: 50px;
   }
 
   .project img {
     max-width: 100vw;
     margin: 0 auto;
+    margin-bottom: 20px;
   }
 
   .margin-fix {
@@ -376,6 +386,10 @@ footer a:hover {
     align-items: center;
     text-align: center;
     max-width: 100vw;
+  }
+
+  .project-info > p {
+    max-width: 500px;
   }
 
   .container {
