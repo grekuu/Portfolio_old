@@ -11,6 +11,29 @@ html {
   scroll-behavior: smooth;
 }
 
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+@media (prefers-reduced-motion) {
+  .hidden {
+    transition: none;
+  }
+}
+
+.about-right {
+  transition: all 1s 0.5s;
+}
+
 .title {
   font-size: 5rem;
   color: white;
@@ -80,6 +103,12 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+header > .hidden {
+  filter: blur(0) !important;
+  transform: translateX(0) !important;
+  transition: all 2s;
 }
 
 .header-btn {
