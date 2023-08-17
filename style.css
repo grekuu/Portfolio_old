@@ -105,7 +105,8 @@ header {
   align-items: center;
 }
 
-header > .hidden {
+header > .hidden,
+.section > .hidden {
   filter: blur(0) !important;
   transform: translateX(0) !important;
   transition: all 2s;
